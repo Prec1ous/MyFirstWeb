@@ -7,6 +7,18 @@ html,body,h4,p{
 header,footer{
 	height: 25px;
 }
+h2{
+	font-size: 50px;
+	text-shadow: 10px 10px 10px #2c41ff;
+	font-family: simhei;
+}
+
+@font-face {
+	font-family: simhei;
+	src: url(/css/fonts/simhei.ttf);
+}
+
+
 .main{
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
