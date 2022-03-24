@@ -1,0 +1,48 @@
+html,body,ul{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+@font-face {
+    font-family: myFont;
+    /* src: url(/css/fonts/书法.ttf); */
+}
+.container h1{
+    text-align: center;
+    font: 40px "myFont";
+    margin-top: 75px;
+    text-shadow: 5px 5px 5px #2c41ff;
+}
+
+.middle{
+    margin-top: 20px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.middle ul li{
+    box-sizing: border-box;
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer{
+    clear: both;
+    margin-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer ul li{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}

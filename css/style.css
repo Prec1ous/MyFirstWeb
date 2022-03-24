@@ -4,21 +4,18 @@ html,body,h4,p{
 	text-align: center;
 	font-size: 16px;
 }
+@font-face {
+	font-family: simhei;
+	src: url(/fonts/simhei.ttf);
+}
 header,footer{
-	height: 25px;
+	height: 40px;
 }
 h2{
 	font-size: 50px;
 	text-shadow: 10px 10px 10px #2c41ff;
 	font-family: simhei;
 }
-
-@font-face {
-	font-family: simhei;
-	src: url(/css/fonts/simhei.ttf);
-}
-
-
 .main{
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
@@ -51,7 +48,8 @@ h2{
 	color: #000;
 	border-radius: 16px;
 }
-.border-radius{
+/* .border-radius{
+
 	margin: 20px 100px;
 	width: 40px;
 	height: 40px;
@@ -62,4 +60,4 @@ h2{
 	margin: 20px 140px;
 	border: 60px solid;
 	border-color: #ff898e #93baff #c89386 #ffb151;
-}
+} */
